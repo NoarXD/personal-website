@@ -15,7 +15,7 @@ const Home = () => {
                             <div className="">Welcome to personal website</div>
                         </div>
                         <div>
-                            <img src="/src/img/noarlogo_remove.png" alt="" width={250} />
+                            <img src="src\img\noarlogo_remove.png" alt="" width={250} />
                         </div>
                     </div>
                 </div>
