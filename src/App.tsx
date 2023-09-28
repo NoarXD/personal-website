@@ -20,6 +20,8 @@ function App() {
                         <Route path="/project" element={<Project />} />
                         <Route path="*" element={<NotPage />} />
                     </Routes>
+                    <Skill />
+                    <Project />
                     <Navbar />
                 </Router>
             </div>

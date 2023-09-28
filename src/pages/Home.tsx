@@ -3,8 +3,8 @@ import noarLogo from "../assets/noarlogo_remove.png"
 const Home = () => {
     return (
         <>
-            <div className="flex h-auto md:max-w-xl mx-auto mt-28">
-                <div className="container p-5 mx-auto">
+            <div className="flex h-auto lg:max-w-screen-lg mx-auto mt-28">
+                <div className="p-5 mx-auto">
                     <div className="flex items-center">
                         <div>
                             <div className="text-green-400 font-bold">

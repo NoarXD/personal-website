@@ -6,14 +6,14 @@ import webWeather from "../assets/web-weather.png"
 const Project = () => {
     return (
         <>
-            <div className="w-full absolute top-24 h-auto p-4 pb-20">
-                <div className="container p-2">
+            <div id="Project" className="w-full h-auto p-4 pb-20">
+                <div className="p-2">
                     <h1 className="font-bold text-2xl text-center">
                         Past project experience
                     </h1>
-                    <div className="mt-5 grid grid-cols-1 gap-5">
+                    <div className="mt-5 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-5">
                         <a href="https://noarxd.github.io/myself/page/project.html" target="_blank">
-                            <div className="bg-neutral-800 p-5 rounded-lg">
+                            <div className="bg-neutral-800 p-5 rounded-lg hover:bg-stone-700 duration-500">
                                 <img src={webPersonalV1} alt="" />
                                 <p className="text-center font-bold">
                                     Personal website old version
@@ -33,7 +33,7 @@ const Project = () => {
                             </div>
                         </a>
                         <a href="https://noarxd.github.io/myself/page/project.html" target="_blank">
-                            <div className="bg-neutral-800 p-5 rounded-lg">
+                            <div className="bg-neutral-800 p-5 rounded-lg hover:bg-stone-700 duration-500">
                                 <img src={webLlcc} alt="" />
                                 <p className="text-center font-bold">
                                     LLCC
@@ -53,7 +53,7 @@ const Project = () => {
                             </div>
                         </a>
                         <a href="https://noarxd.github.io/myself/page/project.html" target="_blank">
-                            <div className="bg-neutral-800 p-5 rounded-lg">
+                            <div className="bg-neutral-800 p-5 rounded-lg hover:bg-stone-700 duration-500">
                                 <img src={webTodo} alt="" />
                                 <p className="text-center font-bold">
                                     Todo list
@@ -73,7 +73,7 @@ const Project = () => {
                             </div>
                         </a>
                         <a href="https://noarxd.github.io/myself/page/project.html" target="_blank">
-                            <div className="bg-neutral-800 p-5 rounded-lg">
+                            <div className="bg-neutral-800 p-5 rounded-lg hover:bg-stone-700 duration-500">
                                 <img src={webWeather} alt="" />
                                 <p className="text-center font-bold">
                                     Weather

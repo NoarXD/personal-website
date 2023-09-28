@@ -14,7 +14,7 @@ import noarLogo from "../assets/noarlogo_remove.png"
 const Skill = () => {
     return (
         <>
-            <div className="flex flex-col w-full h-auto p-4 pb-20 mt-10">
+            <div id="Skill" className="flex flex-col w-full h-auto p-4 pb-20 mt-36 lg:mt-10">
                 <div className="bg-neutral-700 rounded-xl p-2 lg:max-w-screen-lg lg:mx-auto">
                     <div>
                         <p className="">About me</p>
@@ -44,11 +44,11 @@ const Skill = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mt-5">
+                <div className="mt-5 lg:max-w-screen-lg lg:w-full lg:mx-auto">
                     <hr className="w-20 border-[1px]" />
                     <p className="relative left-24 inline bottom-[14px]">Skill</p>
                 </div>
-                <div className="grid grid-cols-2 lg:grid-cols-5 gap-5">
+                <div className="grid grid-cols-2 lg:grid-cols-5 gap-5 lg:max-w-screen-lg lg:w-full lg:mx-auto">
                     <div className="border-[1px] border-orange-300 rounded-md hover:bg-stone-700 duration-500">
                         <div className="m-2 flex items-center">
                             <img src={htmlLogo} alt="" width={36} />
