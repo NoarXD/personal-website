@@ -5,12 +5,14 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import NotPage from "./pages/NotPage";
 import Skill from "./pages/Skill";
 import Project from "./pages/Project";
+import Title from "./component/Title";
 
 function App() {
     return (
         <>
             <div className="text-white">
                 <Router>
+                    <Title />
                     <Routes>
                         <Route index element={<Home />} />
                         <Route path="/" element={<Home />} />
